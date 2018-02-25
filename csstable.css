@@ -1,0 +1,72 @@
+/* h1 {
+  text-align: center;
+}
+table {
+  margin: 0px auto;
+  border-collapse: collapse;
+}
+td {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.vovan {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.vovan2 {
+  border-bottom: 2px solid black;
+} */
+/* img {
+  float: left;
+  width: 30%;
+  margin: 1.66%;
+}
+p {
+  font-family: "roboto mono";
+  margin-left: 1.66%;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 30px;
+  width: 30%;
+} */
+body {
+  border: 20px solid #bdc3c7;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  margin: auto;
+  font-family: "source san pro";
+}
+h2 {
+  color: #2c3e50;
+}
+
+.date {
+  text-transform: uppercase;
+  size: 0.5em;
+  color: #3498db;
+  letter-spacing: 2px;
+}
+.firstpara {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}

@@ -1,0 +1,39 @@
+h2,
+h1 {
+  color: Grey;
+}
+h1,
+.title {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "open-sans";
+  src: url("open-sans.ttf");
+}
+
+body {
+  font-family: "open-sans", Impact;
+  background-image: url("pink.jpg");
+}
+
+section {
+  display: flex;
+  margin-left: 200px;
+}
+
+section div {
+  width: 60%;
+  height: 100%;
+  margin: 20px;
+}
+#liseret .image {
+  border: 3px black double;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  box-shadow: 3px 3px 5px 3px;
+}
+.below {
+  clear: both;
+}
